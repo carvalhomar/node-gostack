@@ -1,0 +1,19 @@
+{
+  "name": "node-gostack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/carvalhomar/node-gostack.git",
+  "author": "Marcelo Carvalho de Moura <carvalhomar@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuidv4": "^6.2.7",
+    "v4": "^0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
